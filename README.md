@@ -1,1 +1,1 @@
-# aurora_template
+# https://mickykhadka.github.io/aurora_template/
