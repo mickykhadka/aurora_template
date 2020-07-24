@@ -1,0 +1,9 @@
+// override default
+
+$theme-colors: (
+  "primary": #4fc3f7,
+  "secondary": #0a3d62,
+);
+
+// import component
+@import "../../bootstrap/scss/bootstrap";

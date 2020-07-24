@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aurora Grove</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./custom/css/main.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-dark navbar-expand-md">
+      <a href="" class="navbar-brand">Aurora Grove</a>
+      <button
+        class="navbar-toggler"
+        data-target="#mobileNav"
+        data-toggle="collapse"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mobileNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#showcase">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#two-card">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#explore">Explore</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#newsletter">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#modal" data-toggle="modal">Book</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <section
+      id="showcase"
+      class="d-flex align-items-center justify-content-center"
+    >
+      <div id="overlay"></div>
+      <div id="header" class="container text-center text-white">
+        <h2 class="display-5 mb-0">MODERN CAMPING</h2>
+        <h1 class="display-1">AURORA GROVE</h1>
+        <p class="lead d-none d-md-block">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae nihil
+          officia totam!
+        </p>
+        <button
+          id="book"
+          class="btn btn-primary btn-lg px-5"
+          data-target="#modal"
+          data-toggle="modal"
+        >
+          BOOK NOW
+        </button>
+      </div>
+    </section>
+    <section id="three-icon">
+      <div class="container text-center">
+        <h2 class="display-5 my-5">YOU SHOW UP,WE FIX THE TENT</h2>
+
+        <div class="row">
+          <div class="col-md-4">
+            <img
+              class="d-none d-md-inline"
+              src="./images/icon/camp.png"
+              alt=""
+              style="height: 200px; width: 200px;"
+            />
+            <h3 class="display-5 mt-3">
+              Amenities You Want
+            </h3>
+            <p class="lead">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa,
+              voluptatibus?
+            </p>
+          </div>
+          <div class="col-md-4">
+            <img
+              class="d-none d-md-inline"
+              src="./images/icon/camping.png"
+              alt=""
+              style="height: 200px; width: 200px;"
+            />
+            <h3 class="display-5 mt-3">
+              The Nature You Want
+            </h3>
+            <p class="lead">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa,
+              voluptatibus?
+            </p>
+          </div>
+          <div class="col-md-4">
+            <img
+              class="d-none d-md-inline"
+              src="./images/icon/fishing.png"
+              alt=""
+              style="height: 200px; width: 200px;"
+            />
+            <h3 class="display-5 mt-3">
+              The Food You Crave
+            </h3>
+            <p class="lead">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa,
+              voluptatibus?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="two-card">
+      <div class="container text-center">
+        <h2 class="display-5 my-5">
+          WE'VE CREATE A CAMPING EXPERIENCE THAT'S HASSLE FREE
+        </h2>
+        <div class="row mb-4">
+          <div class="col-md-6">
+            <div class="card mb-5">
+              <img
+                class="card-img-top"
+                src="https://images.unsplash.com/photo-1542902741-5542e8538d20?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                alt=""
+              />
+              <div class="card-body">
+                <h3 class="card-title">EXPERIENCE</h3>
+                <div class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+                  at enim dicta omnis?
+                </div>
+                <button class="btn btn-lg btn-outline-primary my-2">
+                  Go Somewhere
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="https://images.unsplash.com/photo-1543693259-805446e1bcc3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                alt=""
+              />
+              <div class="card-body">
+                <h3 class="card-title">EXPLORE</h3>
+                <div class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+                  at enim dicta omnis?
+                </div>
+                <button class="btn btn-lg btn-outline-primary my-2">
+                  Go Somewhere
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="quotes">
+      <div class="container text-center">
+        <h2 class="display-5">
+          WHAT OUR HAPPY CAMPERS ARE SAYING
+        </h2>
+        <div class="row mt-4">
+          <div class="col-md-4">
+            <i class="fas fa-quote-left fa-3x text-primary"></i>
+            <blockquote class="blockquote">
+              <p class="mb-0">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+                posuere erat a ante.
+              </p>
+              <footer class="blockquote-footer">
+                Matt Damon
+              </footer>
+            </blockquote>
+          </div>
+          <div class="col-md-4">
+            <i class="fas fa-quote-left fa-3x text-primary"></i>
+            <blockquote class="blockquote">
+              <p class="mb-0">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+                posuere erat a ante.
+              </p>
+              <footer class="blockquote-footer">
+                Tom Cruise
+              </footer>
+            </blockquote>
+          </div>
+          <div class="col-md-4">
+            <i class="fas fa-quote-left fa-3x text-primary"></i>
+            <blockquote class="blockquote">
+              <p class="mb-0">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+                posuere erat a ante.
+              </p>
+              <footer class="blockquote-footer">
+                Mark Wahlberg
+              </footer>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="campy">
+      <div class="container">
+        <div class="row my-4">
+          <div class="col-md-7 mb-4">
+            <div id="smallCarol" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="https://images.unsplash.com/photo-1564610344536-01f2c804b89c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                    class="d-block w-100"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://images.unsplash.com/photo-1566044367072-886d742d097c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                    class="d-block w-100"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://images.unsplash.com/photo-1594228215608-24dff5ee3647?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                    class="d-block w-100"
+                  />
+                </div>
+              </div>
+              <a
+                class="carousel-control-prev"
+                href="#smallCarol"
+                data-slide="prev"
+              >
+                <span class="carousel-control-prev-icon"></span>
+              </a>
+              <a
+                class="carousel-control-next"
+                href="#smallCarol"
+                data-slide="next"
+              >
+                <span class="carousel-control-next-icon"></span>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <h2 class="display-5 mb-3 text-center">CAMPING MADE COMFY</h2>
+            <p class="lead text-left">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Laudantium voluptatum, reprehenderit voluptates vero vitae maxime
+              delectus qui in est! Distinctio inventore soluta mollitia rerum
+              culpa!
+            </p>
+            <a class="text-left" href="">
+              See for Yourself
+              <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="explore">
+      <div class="container text-center">
+        <h2 class="display-5">
+          WHAT OTHERS ARE SAYING
+        </h2>
+        <h5 class="display-5 text-primary">#AURORAGROVE</h5>
+        <div class="row my-5">
+          <div class="col-6 col-lg-3 mb-3">
+            <img
+              class="img-fluid"
+              src="https://images.unsplash.com/photo-1509598602845-c2c6fc8ec2ac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+              alt=""
+            />
+          </div>
+          <div class="col-6 col-lg-3 mb-3">
+            <img
+              class="img-fluid"
+              src="https://images.unsplash.com/photo-1581522236046-9601552d07b0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+              alt=""
+            />
+          </div>
+          <div class="col-6 col-lg-3 mb-3">
+            <img
+              class="img-fluid"
+              src="https://images.unsplash.com/photo-1594228215608-24dff5ee3647?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+              alt=""
+            />
+          </div>
+          <div class="col-6 col-lg-3 mb-3">
+            <img
+              class="img-fluid"
+              src="https://images.unsplash.com/photo-1563148760-64687068abdf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+              alt=""
+            />
+          </div>
+          <div class="col-6 col-lg-3 mb-3">
+            <img
+              class="img-fluid"
+              src="https://images.unsplash.com/photo-1567763186382-0afff42d5683?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+              alt=""
+            />
+          </div>
+          <div class="col-6 col-lg-3 mb-3">
+            <img
+              class="img-fluid"
+              src="https://images.unsplash.com/photo-1584878964750-49daa5a51c2b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+              alt=""
+            />
+          </div>
+          <div class="col-6 col-lg-3 mb-3">
+            <img
+              class="img-fluid"
+              src="https://images.unsplash.com/photo-1543693259-805446e1bcc3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+              alt=""
+            />
+          </div>
+          <div class="col-6 col-lg-3 mb-3">
+            <img
+              class="img-fluid"
+              src="https://images.unsplash.com/photo-1564553133698-93c508c960d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container text-center">
+        <i class="fas fa-quote-left fa-2x text-primary"></i>
+        <blockquote class="blockquote">
+          <p class="my-3">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+            posuere erat a ante.
+          </p>
+          <footer class="blockquote-footer">
+            Justin Timberlake
+          </footer>
+        </blockquote>
+      </div>
+    </section>
+    <section id="newsletter">
+      <div class="container-fluid text-center bg-dark text-white">
+        <h4 class="display-5 pt-5 mb-3">
+          JOIN OUR NEWSLETTER FOR DEALS UPDATES AND OFFERS
+        </h4>
+        <form class="form-inline justify-content-center pb-5">
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Your Email" />
+            <div class="input-group-append">
+              <button class="btn btn-outline-primary text-white">
+                Join Now
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+    <section id="footer">
+      <ul
+        class="nav bg-secondary justify-content-center text-center flex-column flex-sm-row pt-3"
+      >
+        <li class="nav-item">
+          <a href="" class="nav-link text-white">FAQ</a>
+        </li>
+        <li class="nav-item">
+          <a href="#campy" class="nav-link text-white">EXPERIENCE</a>
+        </li>
+        <li class="nav-item">
+          <a href="#explore" class="nav-link text-white">EXPLORE</a>
+        </li>
+        <li class="nav-item">
+          <a href="" class="nav-link text-white">CONTACT</a>
+        </li>
+        <li class="nav-item">
+          <a href="#modal" data-toggle="modal" class="nav-link text-white"
+            >BOOK NOW</a
+          >
+        </li>
+      </ul>
+    </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="modal" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">New Booking</h5>
+            <button type="button" class="close" data-dismiss="modal">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h4 class="display-5 p-2 mb-3">
+              Please fill out the form below and we'll get back to you as soon
+              as possible
+            </h4>
+            <form action="">
+              <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" />
+              </div>
+              <div class="form-group">
+                <label for="adults">No of Adults</label>
+                <select class="custom-select mr-sm-2" id="adults">
+                  <option selected>Choose...</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="children">No of Childrens</label>
+                <select class="custom-select mr-sm-2" id="children">
+                  <option selected>Choose...</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="textarea">Additonal Requests</label>
+                <textarea
+                  rows="3"
+                  class="form-control"
+                  id="textarea"
+                ></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-primary">Submit Request</button>
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
